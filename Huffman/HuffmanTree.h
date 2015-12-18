@@ -7,8 +7,8 @@ struct TreeNode
 {
 	float weight;
 	char letter;
-	TreeNode *LeftChild,*RightChild,*parent;
-	//int LeftChild,RightChild,parent;
+	//TreeNode *LeftChild,*RightChild,*parent;
+	int LeftChild,RightChild,parent;
 }
 
 class HuffmanTree
